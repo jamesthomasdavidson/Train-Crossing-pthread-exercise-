@@ -28,7 +28,9 @@ download the files train.c, train.h, assign2.c and Makefile
 run make
 
 command line (after running make) looks like the following:
+
   ./assign2 NUMBER            *Will generate random NUMBER of trains*
+  
   ./assign2 NUMBER filename   *will load NUMBER trains from file filename.  Assumes filename is a syntactically valid file and contains at least NUMBER of trains*
 
 
