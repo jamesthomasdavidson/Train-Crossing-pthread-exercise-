@@ -58,6 +58,7 @@ void releaseBridgeAndWait()
 void removeTrain(Queue *direction)
 {
 	int i;
+	
     for(i = 0; i < direction->size - 1; i++)
     {
     	direction->head[i] = direction->head[i + 1];
