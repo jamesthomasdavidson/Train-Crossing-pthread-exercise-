@@ -29,10 +29,8 @@ run make
 
 command line (after running make) looks like the following:
 
-  ./assign2 NUMBER
-  *will generate random NUMBER of trains*
+  ./assign2 NUMBER              <<will generate NUMBER of random trains
   
-  ./assign2 NUMBER filename   
-  *will load NUMBER trains from file filename.  Assumes filename is a syntactically valid file and contains at least NUMBER of trains*
+  ./assign2 NUMBER filename     <<will load NUMBER trains from file filename.  Assumes filename is a syntactically valid file and contains at least NUMBER of trains
 
 
