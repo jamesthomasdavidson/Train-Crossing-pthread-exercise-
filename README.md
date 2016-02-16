@@ -23,11 +23,11 @@ Each train gets a thread.
 
 xxx EXECUTION xxx
 
-download the files train.c, train.h, assign2.c and Makefile.
+Download the files train.c, train.h, assign2.c and Makefile.
 
-run make.
+Run make.
 
-command line (after running make) looks like the following:
+Invoking assign2.c on the command line (after running make) looks like the following:
 
   ./assign2 NUMBER              <<will generate NUMBER of random trains.
   
