@@ -18,7 +18,7 @@ Each train gets a thread.
   3 a). For every train IN THE QUEUE going West, up to 2 trains going east must be allowed to finish crossing the bridge
         first (if at least two exist) before the Westbound train can pass.
         
-  3 b). EX: Suppose there are three trains, with two trains (in order: train 1, then train 2) waiting at the Eastbound queue and one on the bridge (also) travelling Eastbound (train 0).  Now suppose two trains arrive at the Westbound Queue (train 3, then train 4). Once train 0 is finished crossing the bridge, train 1 will cross before train 3.  After train 3 has crossed, train 2 will go, followed by train 4.
+  3 b). EX: Suppose there are three trains, with two trains (in order: train 1, then train 2) waiting at the Eastbound queue and one on the bridge (also) travelling Eastbound (train 0).  Now suppose two trains arrive at the Westbound Queue (train 3, then train 4). Once train 0 is finished crossing the bridge, train 1 will cross followed by train 3.  After train 3 has crossed, train 2 will go, followed by train 4.
              
 
 xxx EXECUTION xxx
