@@ -11,7 +11,7 @@ Each train gets a thread.
 
 1. Each train sleeps for some independant amount of time (< 1 second) to simulate loading the trains cargo/passengers.
 
-2. After loading, the trains arrive at either side of the bridge and get added to either the westQueue or wastQueue Train queue.
+2. After loading, the trains arrive at either side of the bridge and get added to either the westQueue or EastQueue Train queue.
 
 3. Trains wait for a turn to cross the bridge, with the following exceptions.
 
