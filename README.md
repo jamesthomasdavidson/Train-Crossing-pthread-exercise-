@@ -21,3 +21,14 @@ Each train gets a thread.
   3 b). EX: Suppose there are three trains, with two trains (in order: train 1, then train 2) waiting at the Eastbound queue and one on the bridge (also) travelling Eastbound (train 0).  Now suppose two trains arrive at the Westbound Queue (train 3, then train 4). Once train 0 is finished crossing the bridge, train 1 will cross before train 3.  After train 3 has crossed, train 2 will go, followed by train 4.
              
 
+xxx EXECUTION xxx
+
+download the files train.c, train.h, assign2.c and Makefile
+
+run make
+
+command line (after running make) looks like the following:
+  ./assign2 NUMBER            *Will generate random NUMBER of trains*
+  ./assign2 NUMBER filename   *will load NUMBER trains from file filename.  Assumes filename is a syntactically valid file and contains at least NUMBER of trains*
+
+
